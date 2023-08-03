@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+nav{
+    width: 100%;
+    height:50px;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+    position:fixed;
+}
+#addbtn {
+    padding: 5px;
+    background-color: black;
+    color: yellow;
+    right: 20px;
+    margin-top: 60px;
+    position: fixed;
+    cursor: pointer;
+}
+.main{
+    /* background-color:rgb(41, 41, 41); */
+    background: url("notesbgimg2.jpg");
+    color: black;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+.note{
+    width:300px;
+    height: 250px;
+    background-color: aliceblue;
+    margin: 30px 20px 0px 50px;
+    margin-top: 120px;
+
+    
+}
+.tool{
+    width: 100%;
+    padding:5px;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: end;
+}
+.tool i{
+    padding: 5px;
+    cursor: pointer;
+}
+.tool i:hover{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.note textarea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border: 0;
+    padding: 15px;
+    font-size: 20px;
+    box-shadow:0px 0px 150px 0px black inset;
+}
+#saveAll{
+    padding: 5px;
+    background-color: black;
+    color: yellow;
+    right: 20%;
+    margin-top: 60px;
+    position:fixed;
+    cursor: pointer;
+}
